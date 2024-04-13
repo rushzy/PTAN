@@ -1,0 +1,16 @@
+apex==0.9.10dev
+boto3==1.34.19
+botocore==1.34.19
+easydict==1.11
+h5py==3.9.0
+nltk==3.8.1
+numpy==1.24.4
+numpy==1.22.3
+PyYAML==6.0.1
+PyYAML==6.0.1
+Requests==2.31.0
+tensorflow==2.15.0.post1
+terminaltables==3.1.10
+torch==2.1.2
+torchtext==0.16.2
+tqdm==4.64.1
