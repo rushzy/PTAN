@@ -18,7 +18,7 @@ For Charades-CG dataset, download https://github.com/YYJMJC/Compositional-Tempor
 
 For ActivityNet-CG dataset, download https://github.com/YYJMJC/Compositional-Temporal-Grounding/tree/main/ActivityNet_CG and put them under `data/ActivityNet`.
 
-We use [I3D features](https://app.box.com/s/h0sxa5klco6qve5ahnz50ly2nksmuedw) for the video in Charades-CG and [C3D features](http://activity-net.org/challenges/2016/download.html) for the videos in ActivityNet-CG, please save it to the `data/` folder. We expect the directory structure to be the following:
+We use [I3D features](https://app.box.com/s/h0sxa5klco6qve5ahnz50ly2nksmuedw) for the videos in Charades-CG and [C3D features](http://activity-net.org/challenges/2016/download.html) for the videos in ActivityNet-CG, please save them to the `data/` folder. We expect the directory structure to be the following:
 
 ```
 data
