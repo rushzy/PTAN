@@ -21,7 +21,7 @@ from lib.core.config import config
 
 class Charades(data.Dataset):
 
-    vocab = torchtext.vocab.pretrained_aliases["glove.840B.300d"](cache="/data/Charades")
+    vocab = torchtext.vocab.pretrained_aliases["glove.840B.300d"](cache="./data/Charades")
     vocab.itos.extend(['<unk>'])
     vocab.stoi['<unk>'] = vocab.vectors.shape[0]
     vocab.vectors = torch.cat([vocab.vectors, torch.zeros(1, vocab.dim)], dim=0)
