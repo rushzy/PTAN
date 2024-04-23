@@ -3,8 +3,8 @@ WORKERS: 4
 MODEL_DIR: ./checkpoints
 RESULT_DIR: ./results
 LOG_DIR: ./log
-DATA_DIR:
-JSON_DIR:
+DATA_DIR: ./data/Charades
+JSON_DIR: ./data/Charades
 
 DATASET:
   NAME: Charades
