@@ -48,5 +48,5 @@ CUDA_VISIBLE_DEVICES=0 python train.py --cfg experiments/charades/PTAN.yaml --ve
 # For ActivityNet-CG
 CUDA_VISIBLE_DEVICES=0 python train.py --cfg experiments/activitynet/PTAN.yaml --verbose
 ```
-If you want to save the model weights during training, please change the `SAVE_CHECKPOINT` parameter in `/experiments/charades/CLARE.yaml` to True.
+If you want to save the model weights during training, please change the `SAVE_CHECKPOINT` parameter in `/experiments/charades/PTAN.yaml` to True.
 The model weights during training are saved in `checkpoints/` by default and can be modified in the configuration file.
